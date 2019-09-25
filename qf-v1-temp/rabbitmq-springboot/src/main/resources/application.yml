@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 192.168.171.134
+    virtual-host: /java1807
+    username: panxy
+    password: pan19950208
+    port: 5672

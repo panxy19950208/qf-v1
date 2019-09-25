@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+dubbo:
+  application:
+    name: qf-v1-item-service
+  registry:
+    protocol: zookeeper
+    address: 192.168.171.134:2181
+  protocol:
+    port: 28003
+spring:
+  rabbitmq:
+    host: 192.168.171.134
+    virtual-host: /java1807
+    username: panxy
+    password: pan19950208
+    port: 5672
+
+template:
+  path: /usr/local/nginx/html/

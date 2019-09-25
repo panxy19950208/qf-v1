@@ -1,0 +1,12 @@
+server:
+  port: 9092
+dubbo:
+  application:
+    name: qf-v1-search
+  registry:
+    protocol: zookeeper
+    address: 192.168.171.134:2181
+spring:
+  thymeleaf:
+    cache: false
+

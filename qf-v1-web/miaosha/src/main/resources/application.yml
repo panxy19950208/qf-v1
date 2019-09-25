@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/miaosha
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 192.168.171.134
+    password: panxy
+  rabbitmq:
+    host: 192.168.171.134
+    virtual-host: /java1807
+    username: panxy
+    password: pan19950208
+    port: 5672
+    listener:
+      simple:
+        prefetch: 10
+        acknowledge-mode: manual
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
